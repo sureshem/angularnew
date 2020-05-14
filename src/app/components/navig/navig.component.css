@@ -1,0 +1,5 @@
+.navigation ul{list-style:none;display:flex;align-items: center;justify-content:space-between;}
+.navigation ul li{list-style:none;}
+.navigation ul li a{font-size:16px;line-height:18px;color:#fff;text-decoration: none;margin: 0 15px;transition: 0.5s all;}
+.navigation ul li a.active{color:#b7b4b4}
+.navigation ul li a:hover{color:#b7b4b4}

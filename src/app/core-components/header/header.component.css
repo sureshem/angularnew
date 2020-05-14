@@ -1,0 +1,4 @@
+.header{padding:20px 15px;transition:0.5s all;background:#000; display: flex; justify-content: space-between; align-items: center;}
+.logo p{font-size: 32px; margin: 0; padding: 0; line-height: 1; font-weight: 700; letter-spacing: 2px; color:#fff;text-transform: uppercase;}
+.headerFixed.header{position:fixed;top:0;left:0;right:0;z-index: 10}
+.logo__img{width:150px;}

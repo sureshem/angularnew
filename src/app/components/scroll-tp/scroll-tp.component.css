@@ -1,0 +1,2 @@
+.back-to-top{background:#000;height:30px;width:30px;font-size: 13px;color:#fff;border-radius: 5px;position:fixed;bottom:15px;right:-100%;transition :0.5s all;text-align: center;cursor:pointer;padding:5px;}
+.back-to-top.scrollTopOpen{right:15px;}

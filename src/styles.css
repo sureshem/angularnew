@@ -1,1 +1,122 @@
 /* You can add global styles to this file, and also import other style files */
+.loading{position:fixed;top:0;bottom:0;left:0;right:0;background:rgba(0,0,0,0.5);z-index: 10;}
+.loading p{font-size:18px;}
+@font-face {
+    font-family: 'roboto';
+    src: url('./assets/fonts/roboto-regular-webfont.eot');
+    src: url('./assets/fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./assets/fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('./assets/fonts/roboto-regular-webfont.woff') format('woff'),
+         url('./assets/fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('./assets/fonts/roboto-regular-webfont.svg#roboto') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #ffde9e;
+    margin: 4px 10px;
+}
+.section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #151515;
+    line-height: 40px;
+}
+.section-title {
+    padding-bottom: 40px;
+}
+.slide-controls .custom-dots {
+  padding-left: 0;
+}
+.slide-controls .custom-dots li {
+  margin: 0 0 0 0.5em;
+  display: inline-block;
+  list-style: none;
+}
+.slide-controls .custom-dots li:first-child {
+  margin-left: 0;
+}
+.slide-controls .custom-dots .dot {
+  display: block;
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slick-slider .slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 15px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity:1;
+    color: #000;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-slider .slick-dots li.slick-active button:before
+{
+    opacity:1;
+    color: #fff;
+}
+.slick-slider .slick-dots
+{
+    position: absolute;
+    bottom:25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slide-controls .custom-dots .dot .string {
+  position: absolute;
+  left: -99999px;
+  line-height: 0;
+  opacity: 0;
+}
+.slide-controls .custom-dots .slick-active .dot {
+  background-color: Lime;
+}
+.slide-controls .custom-dots .dot:hover,
+.slide-controls .custom-dots .custom-dots .slick-active .dot:hover {
+  background-color: Blue;
+}
+*{font-size:16px;line-height: 20px;font-family:"Open Sans", sans-serif;color: #444444;padding:0;margin:0;}
+html,body{overflow-x: hidden;}
+.inner__page{padding:20px 0;}
